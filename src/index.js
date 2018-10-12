@@ -97,8 +97,6 @@ export default declare(({
         const svgReplacement = buildSvg(opts);
         path.replaceWith(svgReplacement);
       }
-      file.get('ensureReact')();
-      file.set('ensureReact', () => {});
     }
   }
 
